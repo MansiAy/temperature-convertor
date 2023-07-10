@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "gilroy";
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+ 
+  #main{
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(green ,darkgreen,darkgreen,green,darkgreen );
+
+  }
+  #main-heading{
+
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+  }
+  #main-heading h1{
+    font-size: 90px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #8c8a8a;
+  }
+  #thermometer{
+    position: absolute;
+    left: 77%;
+    top: 2%;
+    height: 50%;
+    rotate: 20deg;
+  }
+  #thermometer img{
+    height: 60%;
+  }
+  #fs{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #box{
+    height: 60%;
+    width: 35%;
+    background-color:rgb(1, 40, 1);
+    border-radius: 30px;
+    box-shadow:rgb(254, 253, 253);
+    box-shadow: 4px 4px 7px 2px rgba(38, 37, 37, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 130px;
+
+  }
+  #box input{
+    padding: 12px 22px;
+     border-radius: 10px;
+     border: none;
+     background-color: antiquewhite;
+     font-size: 18px;
+   }
+   #box h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#C6D6BA;
+    font-weight: 600;
+    text-shadow: 2px 2px #6b3535;
+   }
+  #celcius{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  #fahrenheit{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  #kelvin{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
